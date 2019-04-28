@@ -55,7 +55,8 @@ export class LogOff extends React.Component{
 				<button onClick={this.currentTemp} className="btn btn-outline-primary">Submit</button>
 				
 				</form>
-				</div>
+			</div><button className="btn "><a  className="b" href="https://github.com/Atiksh04/weatherapp">GitHub Link</a></button>
+			
 			</div>
 			}
 			</div>
