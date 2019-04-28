@@ -31,3 +31,48 @@
     transform: rotate(360deg);
   }
 }
+
+
+.topnav{
+  background-color: rgb(0,78,152);
+  text-align: center;
+
+}
+
+.emptydiv{
+  height: 80px;
+}
+.content{
+  background-color: #5D6D7E  ;
+  text-align: center;
+  position: fixed;
+  left:25%;
+  color:white;
+  margin-top:80px;
+  padding: 100px;
+  padding-top: 20px;
+  border-radius: 3px;
+  width:50%;
+}
+.pad-top{
+  padding-top: 10px;
+}
+.left{
+  position: fixed;
+  text-align: left;
+}
+.right{
+  
+  text-align: right;
+}
+
+.padding-b{
+  padding-bottom: 40px;
+}
+.padd-b{
+  padding-top: 20px;
+}
+.btn-outline-primary{
+  margin-top:10px;
+  background-color: white;
+}
