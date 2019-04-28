@@ -28,7 +28,7 @@ export class LogOff extends React.Component{
 			windkmp:'2',
 		})
 		superagent
-		.get('http://api.apixu.com/v1/current.json?key=6f92dea8f81b4e39a8d60449192804')
+		.get('https://api.apixu.com/v1/current.json?key=6f92dea8f81b4e39a8d60449192804')
 		.query({q:loc})
 		.then((res)=>{
 			this.setState({
